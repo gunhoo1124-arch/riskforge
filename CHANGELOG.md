@@ -12,6 +12,15 @@ and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Continue validating model behavior and improving the educational explanations.
 - Treat new models and interfaces as research features until they have adequate tests.
 
+## [0.1.2] - 2026-09-28
+
+### Added
+
+- Added `VERSION_HISTORY.md`, a chronological record of the project's development stages,
+  affected modules, design decisions, and the reason behind each major edit.
+- Linked the rationale-based version history from the README while retaining this file as
+  the concise release changelog.
+
 ## [0.1.1] - 2026-09-28
 
 ### Fixed
@@ -92,6 +101,7 @@ and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - The project does not yet include GARCH, brokerage integration, trade execution, or a
   production portfolio-management workflow.
 
-[Unreleased]: https://github.com/gunhoo1124-arch/riskforge/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/gunhoo1124-arch/riskforge/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/gunhoo1124-arch/riskforge/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/gunhoo1124-arch/riskforge/compare/v0.1.0...v0.1.1
-[0.1.0]: https://github.com/gunhoo1124-arch/riskforge/releases/tag/v0.1.0
+[0.1.0]: https://github.com/gunhoo1124-arch/riskforge/tree/v0.1.0

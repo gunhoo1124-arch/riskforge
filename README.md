@@ -471,6 +471,13 @@ they are not real-world loss guarantees.
 
 RiskForge is for education and research, not investment advice.
 
+## Project history
+
+See [VERSION_HISTORY.md](VERSION_HISTORY.md) for the chronological development record,
+including what changed in each phase, the reason for the change, the affected modules,
+and the risk-modeling limitation it was intended to address. Published release changes
+remain summarized in [CHANGELOG.md](CHANGELOG.md).
+
 ## Development
 
 ```powershell
