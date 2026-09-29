@@ -12,6 +12,13 @@ and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Continue validating model behavior and improving the educational explanations.
 - Treat new models and interfaces as research features until they have adequate tests.
 
+## [0.1.1] - 2026-09-28
+
+### Fixed
+
+- Made the CLI help-output test portable when GitHub Actions injects ANSI terminal styling
+  on Linux.
+
 ## [0.1.0] - 2026-09-28
 
 ### Initial market-risk engine
@@ -85,5 +92,6 @@ and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - The project does not yet include GARCH, brokerage integration, trade execution, or a
   production portfolio-management workflow.
 
-[Unreleased]: https://github.com/gunhoo1124-arch/riskforge/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/gunhoo1124-arch/riskforge/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/gunhoo1124-arch/riskforge/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/gunhoo1124-arch/riskforge/releases/tag/v0.1.0

@@ -1,3 +1,4 @@
+from click import unstyle
 from typer.testing import CliRunner
 
 from riskforge.cli import app
@@ -7,13 +8,14 @@ runner = CliRunner()
 
 def test_simulate_is_an_explicit_command() -> None:
     result = runner.invoke(app, ["simulate", "--help"])
+    output = unstyle(result.output)
 
     assert result.exit_code == 0
-    assert "riskforge simulate" in result.output
-    assert "--horizon" in result.output
-    assert "--model" in result.output
-    assert "--block-size" in result.output
-    assert "moving-block" in result.output
+    assert "riskforge simulate" in output
+    assert "--horizon" in output
+    assert "--model" in output
+    assert "--block-size" in output
+    assert "moving-block" in output
 
 
 def test_health_command_reports_offline_readiness() -> None:
